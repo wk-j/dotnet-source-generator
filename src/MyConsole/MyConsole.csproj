@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\MyApp\MyApp.csproj" />
+    <!-- <ProjectReference Include="..\MyApp\MyApp.csproj" /> -->
+    <ProjectReference Include="..\..\demo\SourceGeneratorSamples\SourceGeneratorSamples.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -11,6 +12,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Analyzer Include="../MyApp/bin/Debug/netstandard2.0/MyApp.dll" />
+    <Analyzer Include="../../demo/SourceGeneratorSamples/bin/Debug/netstandard2.0/SourceGeneratorSamples.dll" />
   </ItemGroup>
 </Project>
