@@ -1,10 +1,10 @@
 ﻿using System;
+using HelloWorldGenerated;
 
 namespace MyConsole {
-    class Program {
-        static void Main(string[] args) {
-            // HelloWorldGenerated.HelloWorld.SayHello();
-            HelloWorldGenerated.HelloWorld.SayHello();
+    internal static class Program {
+        internal static void Main(string[] _) {
+            HelloWorld.SayHello();
         }
     }
 }
